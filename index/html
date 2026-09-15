@@ -1,0 +1,66 @@
+Service.freelance25@outlook.com
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Freelance 25 - Vos projets, notre expertise</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Service.freelance25</h1>
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="accueil">
+        <h2>Vos idées. Notre expertise.</h2>
+        <p>Développement Web, Design, et Solutions Freelance pour faire grandir votre business</p>
+        <a href="#contact" class="btn">Demander un devis</a>
+    </section>
+
+    <section class="services" id="services">
+        <h3>Nos Services</h3>
+        <div class="cards">
+            <div class="card">
+                <h4>🌐 Site Web</h4>
+                <p>Création de site vitrine et e-commerce moderne et responsive.</p>
+            </div>
+            <div class="card">
+                <h4>🎨 Design</h4>
+                <p>Logo, identité visuelle et UI/UX pour marquer les esprits.</p>
+            </div>
+            <div class="card">
+                <h4>📱 Réseaux Sociaux</h4>
+                <p>Gestion et visuels pour booster votre présence en ligne.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h3>Contactez-nous</h3>
+        <form action="https://formsubmit.co/ton-email@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Votre Nom" required>
+            <input type="email" name="email" placeholder="Votre Email" required>
+            <textarea name="message" rows="5" placeholder="Votre Message" required></textarea>
+            
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://emanuelrobert1.github.io/Service.freelance25-outlook.com/merci.html">
+            
+            <button type="submit">Envoyer le Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Service.freelance25. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
+
