@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Freelance - Vos projets, notre expertise</title>
+  <meta name="description" content="Service Freelance : Création de sites, design, marketing digital et plus. Devis gratuit.">
+  <link rel="stylesheet" href="assets/style.css">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WJHDV7ZR');</script>
+  <!-- End Google Tag Manager -->
+</head>
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJHDV7ZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Service Freelance</div>
+        <ul>
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Votre partenaire Freelance pour réussir en ligne</h1>
+      <p>Création de sites, branding, marketing digital. Des résultats pro, des délais rapides.</p>
+      <a href="contact.html" class="btn btn-white">Demander un devis gratuit</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 style="text-align:center;margin-bottom:40px">Nos Services Principaux</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>🌐 Création de Site Web</h3>
+          <p>Sites vitrines, e-commerce, landing pages. 100% responsive et optimisé SEO.</p>
+        </div>
+        <div class="card">
+          <h3>🎨 Design & Branding</h3>
+          <p>Logo, identité visuelle, réseaux sociaux. Donnez une image pro à votre marque.</p>
+        </div>
+        <div class="card">
+          <h3>📈 Marketing Digital</h3>
+          <p>Gestion Facebook Ads, Google Ads, Community Management pour booster vos ventes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Service Freelance. Tous droits réservés. | Email: Service.freelance25@outlook.com</p>
+    </div>
+  </footer>
+</body>
+</html>

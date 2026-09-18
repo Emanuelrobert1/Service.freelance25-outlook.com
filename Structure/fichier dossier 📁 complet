@@ -1,0 +1,9 @@
+service-freelance/
+│
+├── index.html          ← Étape 1
+├── about.html          ← Étape 3
+├── services.html       ← Étape 4
+├── contact.html        ← Étape 5
+│
+└── assets/             ← Crée ce dossier
+    └── style.css       ← Étape 2

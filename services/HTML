@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos Services - Service Freelance</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WJHDV7ZR');</script>
+</head>
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJHDV7ZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <header><div class="container"><nav><div class="logo">Service Freelance</div><ul><li><a href="index.html">Accueil</a></li><li><a href="services.html" class="active">Services</a></li><li><a href="about.html">À propos</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></header>
+
+  <section class="section">
+    <div class="container">
+      <h1>Ce que nous faisons pour vous</h1>
+      <div class="cards" style="margin-top:30px">
+        <div class="card"><h3>Développement Web</h3><p>WordPress, Shopify, site sur-mesure. Rapide, sécurisé, évolutif.</p></div>
+        <div class="card"><h3>Réseaux Sociaux</h3><p>Stratégie de contenu, visuels, gestion de pages Facebook & Instagram.</p></div>
+        <div class="card"><h3>Rédaction & SEO</h3><p>Articles de blog, fiches produits, optimisation pour Google.</p></div>
+      </div>
+      <a href="contact.html" class="btn" style="margin-top:40px">Parlez-nous de votre projet</a>
+    </div>
+  </section>
+
+  <footer><div class="container"><p>© 2026 Service Freelance</p></div></footer>
+</body>
+</html>

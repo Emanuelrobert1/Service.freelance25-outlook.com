@@ -1,0 +1,40 @@
+:root{
+  --rouge: #e60023;
+  --rouge-dark: #c4001d;
+  --bg: #f7f7f7;
+  --text: #222;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif}
+body{background:var(--bg);color:var(--text);line-height:1.6}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+
+header{background:white;box-shadow:0 2px 5px rgba(0,0,0,.05);position:sticky;top:0;z-index:10}
+nav{display:flex;justify-content:space-between;align-items:center;padding:15px 0}
+.logo{font-size:22px;font-weight:bold;color:var(--rouge)}
+nav ul{display:flex;list-style:none;gap:25px}
+nav a{text-decoration:none;color:var(--text);font-weight:500}
+nav a:hover, nav a.active{color:var(--rouge)}
+
+.hero{background:var(--rouge);color:white;text-align:center;padding:80px 20px;border-radius:0 0 20px 20px}
+.hero h1{font-size:40px;margin-bottom:15px}
+.btn{display:inline-block;background:var(--rouge);color:white;padding:12px 25px;border-radius:6px;text-decoration:none;font-weight:bold;margin-top:15px}
+.btn:hover{background:var(--rouge-dark)}
+.btn-white{background:white;color:var(--rouge)}
+
+.section{padding:60px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px}
+.card{background:white;padding:25px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.card h3{color:var(--rouge);margin-bottom:10px}
+
+.contact-box{background:white;padding:25px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.08);margin-bottom:25px}
+.info{margin:10px 0;font-size:16px}
+.info a{color:var(--rouge);text-decoration:none;font-weight:bold}
+form label{display:block;margin-top:15px;font-weight:bold}
+form input,form textarea,form button{width:100%;padding:10px;margin-top:5px;border:1px solid #ccc;border-radius:6px}
+form button{background:var(--rouge);color:white;border:none;cursor:pointer;margin-top:20px;font-weight:bold}
+form button:hover{background:var(--rouge-dark)}
+
+footer{background:#222;color:white;text-align:center;padding:20px;margin-top:50px}
+
+@media(max-width:768px){nav ul{gap:15px}}
